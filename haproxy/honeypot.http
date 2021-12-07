@@ -1,0 +1,13 @@
+HTTP/1.0 200 Found
+Cache-Control: no-cache
+Connection: close
+Content-Type: text/html
+
+<html>
+<head>
+<title>Up</title>
+</head>
+<body>
+<p><strong>Sorry this backend had been moved.<br /></strong></p>
+</body>
+</html>

@@ -1,0 +1,11 @@
+version: "3.3"
+
+services:
+  haproxy:
+    build:
+      context: ./haproxy
+      dockerfile: Dockerfile
+    container_name: haproxy
+    ports:
+      - "80:80"
+    restart: always
